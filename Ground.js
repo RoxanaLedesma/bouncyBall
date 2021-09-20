@@ -15,5 +15,6 @@ class Ground{
         rectMode(CENTER);
         fill(255);
         rect(pos.x,pos.y,this.width,this.height);
+        pop();
     }
 }
